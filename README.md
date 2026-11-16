@@ -3,9 +3,10 @@
 
 ## 🌐 多语言版本 / Translations
 
-[English](./translations/en/README.md)
+[English](./translations/en/README.md) | [日本語](./translations/ja/README.md)
 
 ---
+
 
 每日批处理的问题在于，输入中的变化要到一天后才会反映到输出中，对许多没有耐心的用户来说实在太慢。为了缩短延迟，可以更频繁地运行处理——比如每秒结束时处理这一秒的数据——也可以完全抛开固定的时间切片，改为连续处理，每个事件一发生就立即处理。这就是 流处理（stream processing） 的基本思想。
 
